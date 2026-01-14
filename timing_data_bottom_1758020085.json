@@ -1,0 +1,306 @@
+[
+  {
+    "loop_number": 0,
+    "motion_index": 0,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020079.8521845,
+    "guided_time": 1758020079.8521845,
+    "command_sent_time": 1758020079.8523958,
+    "actual_arrival_time": 1758020080.419263,
+    "timing_error": 0.5670783519744873,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 1,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020080.1855178,
+    "guided_time": 1758020080.1855178,
+    "command_sent_time": 1758020080.0539129,
+    "actual_arrival_time": 1758020080.384047,
+    "timing_error": 0.19852924346923828,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 2,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020080.5188513,
+    "guided_time": 1758020080.5188513,
+    "command_sent_time": 1758020080.2563276,
+    "actual_arrival_time": 1758020080.5864618,
+    "timing_error": 0.06761050224304199,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 3,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020080.8521845,
+    "guided_time": 1758020080.8521845,
+    "command_sent_time": 1758020080.525308,
+    "actual_arrival_time": 1758020080.855442,
+    "timing_error": 0.0032575130462646484,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 4,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020081.1855178,
+    "guided_time": 1758020081.1855178,
+    "command_sent_time": 1758020080.8560605,
+    "actual_arrival_time": 1758020081.1861947,
+    "timing_error": 0.0006768703460693359,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 5,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020081.5188513,
+    "guided_time": 1758020081.5188513,
+    "command_sent_time": 1758020081.1917372,
+    "actual_arrival_time": 1758020081.5218713,
+    "timing_error": 0.003020048141479492,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 6,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020081.8521845,
+    "guided_time": 1758020081.8521845,
+    "command_sent_time": 1758020081.5253606,
+    "actual_arrival_time": 1758020081.8554947,
+    "timing_error": 0.0033102035522460938,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 7,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020082.1855178,
+    "guided_time": 1758020082.1855178,
+    "command_sent_time": 1758020081.8576868,
+    "actual_arrival_time": 1758020082.187821,
+    "timing_error": 0.0023031234741210938,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 8,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020082.5188513,
+    "guided_time": 1758020082.5188513,
+    "command_sent_time": 1758020082.188896,
+    "actual_arrival_time": 1758020082.51903,
+    "timing_error": 0.00017881393432617188,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 9,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020082.8521845,
+    "guided_time": 1758020082.8521845,
+    "command_sent_time": 1758020082.5250196,
+    "actual_arrival_time": 1758020082.8551538,
+    "timing_error": 0.0029692649841308594,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 10,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020083.1855178,
+    "guided_time": 1758020083.1855178,
+    "command_sent_time": 1758020082.8594763,
+    "actual_arrival_time": 1758020083.1896105,
+    "timing_error": 0.004092693328857422,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 11,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020083.5188513,
+    "guided_time": 1758020083.5188513,
+    "command_sent_time": 1758020083.1903405,
+    "actual_arrival_time": 1758020083.5204747,
+    "timing_error": 0.001623392105102539,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 12,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020083.8521845,
+    "guided_time": 1758020083.8521845,
+    "command_sent_time": 1758020083.5236602,
+    "actual_arrival_time": 1758020083.8537943,
+    "timing_error": 0.00160980224609375,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 13,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020084.1855178,
+    "guided_time": 1758020084.1855178,
+    "command_sent_time": 1758020083.8565042,
+    "actual_arrival_time": 1758020084.1866384,
+    "timing_error": 0.0011205673217773438,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 14,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020084.5188513,
+    "guided_time": 1758020084.5188513,
+    "command_sent_time": 1758020084.1893387,
+    "actual_arrival_time": 1758020084.5194728,
+    "timing_error": 0.0006215572357177734,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 0,
+    "motion_index": 15,
+    "target_position": [
+      234,
+      15,
+      20.666666666666675,
+      0
+    ],
+    "planned_time": 1758020084.8521845,
+    "guided_time": 1758020084.8521845,
+    "command_sent_time": 1758020084.524659,
+    "actual_arrival_time": 1758020084.854793,
+    "timing_error": 0.0026085376739501953,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 1,
+    "motion_index": 0,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020085.1855178,
+    "guided_time": 1758020085.1855178,
+    "command_sent_time": 1758020084.8569393,
+    "actual_arrival_time": 1758020085.1870735,
+    "timing_error": 0.0015556812286376953,
+    "motion_type": "strike"
+  },
+  {
+    "loop_number": 1,
+    "motion_index": 1,
+    "target_position": [
+      234,
+      15,
+      20.666666666666664,
+      0
+    ],
+    "planned_time": 1758020085.518851,
+    "guided_time": 1758020085.518851,
+    "command_sent_time": 1758020085.1892421,
+    "actual_arrival_time": 1758020085.5193763,
+    "timing_error": 0.0005252361297607422,
+    "motion_type": "backswing"
+  },
+  {
+    "loop_number": 1,
+    "motion_index": 2,
+    "target_position": [
+      222,
+      11,
+      -5,
+      0
+    ],
+    "planned_time": 1758020085.8521845,
+    "guided_time": 1758020085.8521845,
+    "command_sent_time": 1758020085.5221093,
+    "actual_arrival_time": 1758020085.8522434,
+    "timing_error": 5.888938903808594e-05,
+    "motion_type": "strike"
+  }
+]

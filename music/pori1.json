@@ -1,0 +1,162 @@
+{
+    "top": {
+        "bpm": 50,
+        "numerator": 4,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1684530
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1685711
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1686921
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1688115
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1689333
+            },
+            {
+                "beat": 5.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1690534
+            },
+            {
+                "beat": 6.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1691719
+            },
+            {
+                "beat": 7.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false,
+                "lit_start_time": 1683348
+            }
+        ],
+        "beats_per_measure": 4.0,
+        "total_beats": 8.0,
+        "last_elapsed_ms": 7560.0
+    },
+    "bottom": {
+        "bpm": 38,
+        "numerator": 3,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1684028
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1685589
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1687171
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1688741
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1690349
+            },
+            {
+                "beat": 5.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1691890
+            }
+        ],
+        "beats_per_measure": 3.0,
+        "total_beats": 6.0,
+        "last_elapsed_ms": 8065.263157894733
+    }
+}

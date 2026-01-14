@@ -1,0 +1,177 @@
+{
+    "bpm": 120.0,
+    "score": {
+        "top": [
+            {
+                "beat": 0.0,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 0.5,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 5.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 6.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 7.0,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "is_lit": false
+            },
+            {
+                "beat": 7.5,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "is_lit": false
+            }
+        ],
+        "bottom": [
+            {
+                "beat": 0.0,
+                "type": "half",
+                "duration": 2.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 3.0,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 3.5,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 4.0,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 4.5,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 5.0,
+                "type": "sixteenth_rest",
+                "duration": 0.25,
+                "class": "rest",
+                "is_lit": false
+            },
+            {
+                "beat": 5.25,
+                "type": "sixteenth_rest",
+                "duration": 0.25,
+                "class": "rest",
+                "is_lit": false
+            },
+            {
+                "beat": 5.5,
+                "type": "sixteenth_rest",
+                "duration": 0.25,
+                "class": "rest",
+                "is_lit": false
+            },
+            {
+                "beat": 5.75,
+                "type": "sixteenth_rest",
+                "duration": 0.25,
+                "class": "rest",
+                "is_lit": false
+            },
+            {
+                "beat": 6.0,
+                "type": "sixteenth",
+                "duration": 0.25,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 6.25,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 7.25,
+                "type": "eighth",
+                "duration": 0.5,
+                "class": "note",
+                "is_lit": false
+            },
+            {
+                "beat": 7.75,
+                "type": "sixteenth",
+                "duration": 0.25,
+                "class": "note",
+                "is_lit": false
+            }
+        ]
+    }
+}

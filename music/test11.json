@@ -1,0 +1,116 @@
+{
+    "top": {
+        "bpm": 60,
+        "numerator": 3,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 5.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            }
+        ],
+        "beats_per_measure": 3.0,
+        "total_beats": 6.0
+    },
+    "bottom": {
+        "bpm": 60,
+        "numerator": 3,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            },
+            {
+                "beat": 5.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false
+            }
+        ],
+        "beats_per_measure": 3.0,
+        "total_beats": 6.0
+    }
+}

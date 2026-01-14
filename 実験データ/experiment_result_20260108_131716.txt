@@ -1,0 +1,687 @@
+==================================================
+ リズム実験データログ
+ 実験開始日時: 2026-01-08 12:42:32
+ 実験終了日時: 2026-01-08 13:17:16
+ 楽譜順序: test2 -> test3 -> test1
+ 手法順序: metronome -> linear -> passthrough
+==================================================
+
+
+##################################################
+ 実験セット 1 (楽譜: test2.json)
+##################################################
+
+--- ステップ 1: 事前テスト (Test 1) ---
+手法: Test (None)
+日時: 2026-01-08 12:50:28
+【全体】 Acc: 64.3%, Score: 38.6%, Err: -87.5ms, Dev: 10.4ms
+  [左手] Acc: 71.4%, Score: 41.4%, Err: -88.6ms, Dev: 9.5ms (P:0 Gr:3 Go:2 M:2)
+  [右手] Acc: 57.1%, Score: 35.7%, Err: -86.2ms, Dev: 11.3ms (P:0 Gr:3 Go:1 M:3)
+
+  [打鍵詳細データ]
+  Note bottom-7   : great    -75ms
+  Note bottom-8   : great    -82ms
+  Note bottom-9   : great    -82ms
+  Note bottom-10  : good     -105ms
+  Note bottom-11  : dropped  ---
+  Note bottom-12  : dropped  ---
+  Note bottom-13  : dropped  ---
+  Note top-0      : great    -75ms
+  Note top-1      : good     -104ms
+  Note top-2      : great    -86ms
+  Note top-3      : good     -90ms
+  Note top-4      : great    -88ms
+  Note top-5      : dropped  ---
+  Note top-6      : dropped  ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+
+--- ステップ 2: 練習 (Practice) ---
+手法: Metronome
+日時: 2026-01-08 12:55:37
+【全体】 Acc: 50.0%, Score: 39.3%, Err: -60.1ms, Dev: 31.6ms
+  [左手] Acc: 42.9%, Score: 34.3%, Err: -63.0ms, Dev: 11.8ms (P:1 Gr:2 Go:0 M:4)
+  [右手] Acc: 57.1%, Score: 44.3%, Err: -57.8ms, Dev: 40.3ms (P:2 Gr:1 Go:1 M:3)
+
+  [各ループの推移]
+  > Loop 1 (12:50:49)
+    【全体】 Acc: 100.0%, Score: 98.6%, Err: -41.4ms, Dev: 18.4ms
+      [左手] Acc: 100.0%, Score: 87.1%, Err: -51.6ms, Dev: 16.3ms (P:4 Gr:3 Go:0 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: -32.5ms, Dev: 15.2ms (P:7 Gr:1 Go:0 M:0)
+
+  > Loop 2 (12:50:58)
+    【全体】 Acc: 100.0%, Score: 78.6%, Err: -59.0ms, Dev: 19.3ms
+      [左手] Acc: 100.0%, Score: 74.3%, Err: -62.6ms, Dev: 19.9ms (P:1 Gr:6 Go:0 M:0)
+      [右手] Acc: 100.0%, Score: 82.9%, Err: -55.5ms, Dev: 18.0ms (P:3 Gr:4 Go:0 M:0)
+
+  > Loop 3 (12:51:08)
+    【全体】 Acc: 14.3%, Score: 7.9%, Err: -87.3ms, Dev: 8.0ms
+      [左手] Acc: 14.3%, Score: 5.7%, Err: -95.3ms, Dev: 0.0ms (P:0 Gr:0 Go:1 M:6)
+      [右手] Acc: 14.3%, Score: 10.0%, Err: -79.4ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:6)
+
+  > Loop 4 (12:51:18)
+    【全体】 Acc: 28.6%, Score: 24.3%, Err: -42.8ms, Dev: 28.8ms
+      [左手] Acc: 28.6%, Score: 24.3%, Err: -46.7ms, Dev: 32.5ms (P:1 Gr:1 Go:0 M:5)
+      [右手] Acc: 28.6%, Score: 24.3%, Err: -38.9ms, Dev: 24.0ms (P:1 Gr:1 Go:0 M:5)
+
+  > Loop 5 (12:51:27)
+    【全体】 Acc: 50.0%, Score: 50.0%, Err: 21.5ms, Dev: 25.7ms
+      [左手] Acc: 57.1%, Score: 57.1%, Err: 25.0ms, Dev: 26.7ms (P:4 Gr:0 Go:0 M:3)
+      [右手] Acc: 42.9%, Score: 42.9%, Err: 17.0ms, Dev: 23.5ms (P:3 Gr:0 Go:0 M:4)
+
+  > Loop 6 (12:51:37)
+    【全体】 Acc: 64.3%, Score: 55.7%, Err: -43.1ms, Dev: 33.2ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: -43.7ms, Dev: 31.7ms (P:4 Gr:0 Go:1 M:2)
+      [右手] Acc: 57.1%, Score: 48.6%, Err: -42.4ms, Dev: 34.9ms (P:3 Gr:0 Go:1 M:3)
+
+  > Loop 7 (12:51:46)
+    【全体】 Acc: 7.1%, Score: 7.1%, Err: -15.4ms, Dev: 0.0ms
+      [左手] Acc: 14.3%, Score: 14.3%, Err: -15.4ms, Dev: 0.0ms (P:1 Gr:0 Go:0 M:6)
+      [右手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:7)
+
+  > Loop 8 (12:51:56)
+    【全体】 Acc: 100.0%, Score: 100.0%, Err: -2.1ms, Dev: 23.2ms
+      [左手] Acc: 100.0%, Score: 95.7%, Err: -3.5ms, Dev: 31.4ms (P:6 Gr:1 Go:0 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: -0.9ms, Dev: 11.9ms (P:8 Gr:0 Go:0 M:0)
+
+  > Loop 9 (12:52:06)
+    【全体】 Acc: 50.0%, Score: 41.4%, Err: -48.9ms, Dev: 26.4ms
+      [左手] Acc: 57.1%, Score: 48.6%, Err: -50.4ms, Dev: 23.7ms (P:2 Gr:2 Go:0 M:3)
+      [右手] Acc: 42.9%, Score: 34.3%, Err: -46.8ms, Dev: 29.4ms (P:1 Gr:2 Go:0 M:4)
+
+  > Loop 10 (12:52:15)
+    【全体】 Acc: 78.6%, Score: 52.9%, Err: -66.5ms, Dev: 27.0ms
+      [左手] Acc: 71.4%, Score: 50.0%, Err: -64.1ms, Dev: 24.0ms (P:1 Gr:3 Go:1 M:2)
+      [右手] Acc: 85.7%, Score: 55.7%, Err: -68.5ms, Dev: 29.1ms (P:2 Gr:1 Go:3 M:1)
+
+  > Loop 11 (12:52:25)
+    【全体】 Acc: 50.0%, Score: 37.1%, Err: -63.1ms, Dev: 24.4ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -63.0ms, Dev: 25.1ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 42.9%, Score: 30.0%, Err: -63.3ms, Dev: 23.4ms (P:1 Gr:1 Go:1 M:4)
+
+  > Loop 12 (12:52:34)
+    【全体】 Acc: 92.9%, Score: 69.3%, Err: -70.4ms, Dev: 11.9ms
+      [左手] Acc: 100.0%, Score: 74.3%, Err: -69.9ms, Dev: 12.3ms (P:1 Gr:6 Go:0 M:0)
+      [右手] Acc: 85.7%, Score: 64.3%, Err: -71.1ms, Dev: 11.4ms (P:1 Gr:5 Go:0 M:1)
+
+  > Loop 13 (12:52:44)
+    【全体】 Acc: 78.6%, Score: 55.0%, Err: -66.8ms, Dev: 24.9ms
+      [左手] Acc: 85.7%, Score: 64.3%, Err: -65.0ms, Dev: 26.5ms (P:3 Gr:1 Go:2 M:1)
+      [右手] Acc: 71.4%, Score: 45.7%, Err: -69.0ms, Dev: 22.6ms (P:1 Gr:2 Go:2 M:2)
+
+  > Loop 14 (12:52:54)
+    【全体】 Acc: 64.3%, Score: 57.9%, Err: -39.9ms, Dev: 27.3ms
+      [左手] Acc: 57.1%, Score: 48.6%, Err: -47.1ms, Dev: 31.7ms (P:2 Gr:2 Go:0 M:3)
+      [右手] Acc: 71.4%, Score: 67.1%, Err: -34.2ms, Dev: 21.5ms (P:4 Gr:1 Go:0 M:2)
+
+  > Loop 15 (12:53:03)
+    【全体】 Acc: 64.3%, Score: 51.4%, Err: -61.5ms, Dev: 24.7ms
+      [左手] Acc: 57.1%, Score: 48.6%, Err: -55.4ms, Dev: 26.6ms (P:2 Gr:2 Go:0 M:3)
+      [右手] Acc: 71.4%, Score: 54.3%, Err: -66.4ms, Dev: 21.8ms (P:2 Gr:2 Go:1 M:2)
+
+  > Loop 16 (12:53:13)
+    【全体】 Acc: 92.9%, Score: 77.9%, Err: -45.9ms, Dev: 37.8ms
+      [左手] Acc: 85.7%, Score: 72.9%, Err: -53.8ms, Dev: 29.4ms (P:4 Gr:1 Go:1 M:1)
+      [右手] Acc: 100.0%, Score: 82.9%, Err: -39.2ms, Dev: 42.6ms (P:4 Gr:2 Go:1 M:0)
+
+  > Loop 17 (12:53:22)
+    【全体】 Acc: 71.4%, Score: 41.4%, Err: -83.9ms, Dev: 15.0ms
+      [左手] Acc: 57.1%, Score: 31.4%, Err: -82.9ms, Dev: 16.1ms (P:0 Gr:2 Go:2 M:3)
+      [右手] Acc: 85.7%, Score: 51.4%, Err: -84.6ms, Dev: 14.1ms (P:0 Gr:4 Go:2 M:1)
+
+  > Loop 18 (12:53:32)
+    【全体】 Acc: 14.3%, Score: 10.0%, Err: -63.3ms, Dev: 0.0ms
+      [左手] Acc: 14.3%, Score: 10.0%, Err: -63.2ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:6)
+      [右手] Acc: 14.3%, Score: 10.0%, Err: -63.3ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:6)
+
+  > Loop 19 (12:53:42)
+    【全体】 Acc: 71.4%, Score: 41.4%, Err: -83.7ms, Dev: 20.2ms
+      [左手] Acc: 71.4%, Score: 32.9%, Err: -93.4ms, Dev: 7.9ms (P:0 Gr:1 Go:4 M:2)
+      [右手] Acc: 71.4%, Score: 50.0%, Err: -73.9ms, Dev: 23.8ms (P:1 Gr:3 Go:1 M:2)
+
+  > Loop 20 (12:53:51)
+    【全体】 Acc: 57.1%, Score: 52.9%, Err: -18.0ms, Dev: 38.8ms
+      [左手] Acc: 42.9%, Score: 42.9%, Err: -15.2ms, Dev: 17.0ms (P:3 Gr:0 Go:0 M:4)
+      [右手] Acc: 71.4%, Score: 62.9%, Err: -19.7ms, Dev: 47.2ms (P:4 Gr:0 Go:1 M:2)
+
+  > Loop 21 (12:54:01)
+    【全体】 Acc: 100.0%, Score: 97.1%, Err: -17.7ms, Dev: 51.6ms
+      [左手] Acc: 100.0%, Score: 97.1%, Err: -16.4ms, Dev: 50.4ms (P:5 Gr:2 Go:1 M:0)
+      [右手] Acc: 100.0%, Score: 97.1%, Err: -19.1ms, Dev: 52.8ms (P:4 Gr:4 Go:0 M:0)
+
+  > Loop 22 (12:54:10)
+    【全体】 Acc: 71.4%, Score: 41.4%, Err: -87.8ms, Dev: 8.4ms
+      [左手] Acc: 71.4%, Score: 32.9%, Err: -95.0ms, Dev: 5.3ms (P:0 Gr:1 Go:4 M:2)
+      [右手] Acc: 71.4%, Score: 50.0%, Err: -80.6ms, Dev: 3.2ms (P:0 Gr:5 Go:0 M:2)
+
+  > Loop 23 (12:54:20)
+    【全体】 Acc: 71.4%, Score: 50.0%, Err: -71.4ms, Dev: 15.7ms
+      [左手] Acc: 71.4%, Score: 50.0%, Err: -72.6ms, Dev: 9.4ms (P:0 Gr:5 Go:0 M:2)
+      [右手] Acc: 71.4%, Score: 50.0%, Err: -70.2ms, Dev: 20.0ms (P:1 Gr:3 Go:1 M:2)
+
+  > Loop 24 (12:54:30)
+    【全体】 Acc: 50.0%, Score: 37.1%, Err: -60.9ms, Dev: 34.7ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -63.3ms, Dev: 33.8ms (P:2 Gr:0 Go:2 M:3)
+      [右手] Acc: 42.9%, Score: 34.3%, Err: -57.6ms, Dev: 35.6ms (P:2 Gr:0 Go:1 M:4)
+
+  > Loop 25 (12:54:39)
+    【全体】 Acc: 71.4%, Score: 62.9%, Err: -33.8ms, Dev: 31.8ms
+      [左手] Acc: 71.4%, Score: 67.1%, Err: -31.3ms, Dev: 22.7ms (P:4 Gr:1 Go:0 M:2)
+      [右手] Acc: 71.4%, Score: 58.6%, Err: -36.3ms, Dev: 38.7ms (P:3 Gr:1 Go:1 M:2)
+
+  > Loop 26 (12:54:49)
+    【全体】 Acc: 85.7%, Score: 72.9%, Err: -55.8ms, Dev: 28.7ms
+      [左手] Acc: 85.7%, Score: 81.4%, Err: -45.9ms, Dev: 24.8ms (P:5 Gr:1 Go:0 M:1)
+      [右手] Acc: 85.7%, Score: 64.3%, Err: -65.8ms, Dev: 28.9ms (P:3 Gr:1 Go:2 M:1)
+
+  > Loop 27 (12:54:58)
+    【全体】 Acc: 78.6%, Score: 55.0%, Err: -64.6ms, Dev: 31.9ms
+      [左手] Acc: 71.4%, Score: 50.0%, Err: -61.6ms, Dev: 34.5ms (P:2 Gr:1 Go:2 M:2)
+      [右手] Acc: 85.7%, Score: 60.0%, Err: -67.2ms, Dev: 29.3ms (P:2 Gr:2 Go:2 M:1)
+
+  > Loop 28 (12:55:08)
+    【全体】 Acc: 50.0%, Score: 28.6%, Err: -90.9ms, Dev: 10.2ms
+      [左手] Acc: 28.6%, Score: 15.7%, Err: -90.3ms, Dev: 11.0ms (P:0 Gr:1 Go:1 M:5)
+      [右手] Acc: 71.4%, Score: 41.4%, Err: -91.2ms, Dev: 9.8ms (P:0 Gr:3 Go:2 M:2)
+
+  > Loop 29 (12:55:18)
+    【全体】 Acc: 57.1%, Score: 50.7%, Err: -42.5ms, Dev: 30.8ms
+      [左手] Acc: 71.4%, Score: 58.6%, Err: -46.6ms, Dev: 32.3ms (P:3 Gr:1 Go:1 M:2)
+      [右手] Acc: 42.9%, Score: 42.9%, Err: -35.7ms, Dev: 26.8ms (P:3 Gr:0 Go:0 M:4)
+
+  > Loop 30 (12:55:27)
+    【全体】 Acc: 35.7%, Score: 22.9%, Err: -77.6ms, Dev: 27.7ms
+      [左手] Acc: 42.9%, Score: 30.0%, Err: -71.4ms, Dev: 31.7ms (P:1 Gr:1 Go:1 M:4)
+      [右手] Acc: 28.6%, Score: 15.7%, Err: -87.0ms, Dev: 16.3ms (P:0 Gr:1 Go:1 M:5)
+
+  > Loop 31 (12:55:37)
+    【全体】 Acc: 50.0%, Score: 39.3%, Err: -60.1ms, Dev: 31.6ms
+      [左手] Acc: 42.9%, Score: 34.3%, Err: -63.0ms, Dev: 11.8ms (P:1 Gr:2 Go:0 M:4)
+      [右手] Acc: 57.1%, Score: 44.3%, Err: -57.8ms, Dev: 40.3ms (P:2 Gr:1 Go:1 M:3)
+
+
+--- ステップ 3: 事後テスト (Test 2) ---
+手法: Test (None)
+日時: 2026-01-08 12:55:57
+【全体】 Acc: 28.6%, Score: 20.0%, Err: -68.6ms, Dev: 10.5ms
+  [左手] Acc: 28.6%, Score: 20.0%, Err: -70.2ms, Dev: 11.9ms (P:0 Gr:2 Go:0 M:5)
+  [右手] Acc: 28.6%, Score: 20.0%, Err: -66.9ms, Dev: 8.5ms (P:0 Gr:2 Go:0 M:5)
+
+  [打鍵詳細データ]
+  Note bottom-7   : great    -58ms
+  Note bottom-8   : great    -75ms
+  Note bottom-9   : dropped  ---
+  Note bottom-10  : dropped  ---
+  Note bottom-11  : dropped  ---
+  Note bottom-12  : dropped  ---
+  Note bottom-13  : dropped  ---
+  Note top-0      : great    -58ms
+  Note top-1      : great    -82ms
+  Note top-2      : dropped  ---
+  Note top-3      : dropped  ---
+  Note top-4      : dropped  ---
+  Note top-5      : dropped  ---
+  Note top-6      : dropped  ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+
+##################################################
+ 実験セット 2 (楽譜: test3.json)
+##################################################
+
+--- ステップ 1: 事前テスト (Test 1) ---
+手法: Test (None)
+日時: 2026-01-08 13:00:55
+【全体】 Acc: 15.4%, Score: 10.8%, Err: -81.6ms, Dev: 0.0ms
+  [左手] Acc: 14.3%, Score: 10.0%, Err: -81.6ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:6)
+  [右手] Acc: 16.7%, Score: 11.7%, Err: -81.5ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:5)
+
+  [打鍵詳細データ]
+  Note bottom-7   : dropped  ---
+  Note bottom-8   : dropped  ---
+  Note bottom-9   : great    -82ms
+  Note bottom-10  : dropped  ---
+  Note bottom-11  : dropped  ---
+  Note bottom-12  : dropped  ---
+  Note top-0      : dropped  ---
+  Note top-1      : dropped  ---
+  Note top-2      : dropped  ---
+  Note top-3      : great    -82ms
+  Note top-4      : dropped  ---
+  Note top-5      : dropped  ---
+  Note top-6      : dropped  ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+
+--- ステップ 2: 練習 (Practice) ---
+手法: 線形補間コントローラー
+日時: 2026-01-08 13:06:03
+【全体】 Acc: 53.8%, Score: 46.9%, Err: -32.1ms, Dev: 43.1ms
+  [左手] Acc: 57.1%, Score: 44.3%, Err: -40.1ms, Dev: 47.6ms (P:2 Gr:1 Go:1 M:3)
+  [右手] Acc: 50.0%, Score: 50.0%, Err: -21.4ms, Dev: 33.3ms (P:3 Gr:0 Go:0 M:3)
+
+  [各ループの推移]
+  > Loop 1 (13:01:15)
+    【全体】 Acc: 7.7%, Score: 3.1%, Err: 100.4ms, Dev: 0.0ms
+      [左手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:7)
+      [右手] Acc: 16.7%, Score: 6.7%, Err: 100.4ms, Dev: 0.0ms (P:0 Gr:0 Go:1 M:5)
+
+  > Loop 2 (13:01:25)
+    【全体】 Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms
+      [左手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:7)
+      [右手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:6)
+
+  > Loop 3 (13:01:34)
+    【全体】 Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms
+      [左手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:7)
+      [右手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:6)
+
+  > Loop 4 (13:01:44)
+    【全体】 Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms
+      [左手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:7)
+      [右手] Acc: 0.0%, Score: 0.0%, Err: 0.0ms, Dev: 0.0ms (P:0 Gr:0 Go:0 M:6)
+
+  > Loop 5 (13:01:54)
+    【全体】 Acc: 61.5%, Score: 52.3%, Err: 31.2ms, Dev: 43.0ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: 31.2ms, Dev: 37.1ms (P:4 Gr:0 Go:1 M:2)
+      [右手] Acc: 50.0%, Score: 40.0%, Err: 31.3ms, Dev: 51.4ms (P:2 Gr:0 Go:1 M:3)
+
+  > Loop 6 (13:02:03)
+    【全体】 Acc: 53.8%, Score: 46.9%, Err: 42.7ms, Dev: 28.3ms
+      [左手] Acc: 42.9%, Score: 38.6%, Err: 45.3ms, Dev: 13.1ms (P:2 Gr:1 Go:0 M:4)
+      [右手] Acc: 66.7%, Score: 56.7%, Err: 40.7ms, Dev: 35.6ms (P:3 Gr:0 Go:1 M:2)
+
+  > Loop 7 (13:02:13)
+    【全体】 Acc: 69.2%, Score: 55.4%, Err: 38.9ms, Dev: 39.6ms
+      [左手] Acc: 71.4%, Score: 58.6%, Err: 30.5ms, Dev: 44.1ms (P:3 Gr:1 Go:1 M:2)
+      [右手] Acc: 66.7%, Score: 51.7%, Err: 49.5ms, Dev: 30.0ms (P:1 Gr:3 Go:0 M:2)
+
+  > Loop 8 (13:02:22)
+    【全体】 Acc: 69.2%, Score: 60.0%, Err: -7.3ms, Dev: 57.6ms
+      [左手] Acc: 71.4%, Score: 58.6%, Err: -13.8ms, Dev: 59.4ms (P:3 Gr:1 Go:1 M:2)
+      [右手] Acc: 66.7%, Score: 61.7%, Err: 0.7ms, Dev: 54.3ms (P:3 Gr:1 Go:0 M:2)
+
+  > Loop 9 (13:02:32)
+    【全体】 Acc: 84.6%, Score: 77.7%, Err: 33.6ms, Dev: 27.5ms
+      [左手] Acc: 85.7%, Score: 81.4%, Err: 34.3ms, Dev: 17.1ms (P:5 Gr:1 Go:0 M:1)
+      [右手] Acc: 83.3%, Score: 73.3%, Err: 32.7ms, Dev: 36.3ms (P:3 Gr:2 Go:0 M:1)
+
+  > Loop 10 (13:02:42)
+    【全体】 Acc: 84.6%, Score: 70.8%, Err: 38.8ms, Dev: 37.4ms
+      [左手] Acc: 85.7%, Score: 72.9%, Err: 37.1ms, Dev: 32.2ms (P:4 Gr:1 Go:1 M:1)
+      [右手] Acc: 83.3%, Score: 68.3%, Err: 40.8ms, Dev: 42.7ms (P:2 Gr:3 Go:0 M:1)
+
+  > Loop 11 (13:02:51)
+    【全体】 Acc: 84.6%, Score: 70.8%, Err: 0.4ms, Dev: 56.3ms
+      [左手] Acc: 100.0%, Score: 82.9%, Err: 0.7ms, Dev: 56.0ms (P:4 Gr:2 Go:1 M:0)
+      [右手] Acc: 66.7%, Score: 56.7%, Err: -0.1ms, Dev: 56.8ms (P:3 Gr:0 Go:1 M:2)
+
+  > Loop 12 (13:03:01)
+    【全体】 Acc: 100.0%, Score: 89.2%, Err: -21.3ms, Dev: 54.2ms
+      [左手] Acc: 100.0%, Score: 78.6%, Err: -29.4ms, Dev: 54.7ms (P:3 Gr:3 Go:1 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: -13.2ms, Dev: 52.5ms (P:5 Gr:1 Go:1 M:0)
+
+  > Loop 13 (13:03:10)
+    【全体】 Acc: 76.9%, Score: 74.6%, Err: -9.0ms, Dev: 35.0ms
+      [左手] Acc: 85.7%, Score: 85.7%, Err: -12.7ms, Dev: 30.5ms (P:6 Gr:0 Go:0 M:1)
+      [右手] Acc: 66.7%, Score: 61.7%, Err: -3.3ms, Dev: 40.2ms (P:3 Gr:1 Go:0 M:2)
+
+  > Loop 14 (13:03:20)
+    【全体】 Acc: 61.5%, Score: 50.0%, Err: 15.4ms, Dev: 51.0ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: 16.4ms, Dev: 42.4ms (P:4 Gr:0 Go:1 M:2)
+      [右手] Acc: 50.0%, Score: 35.0%, Err: 13.9ms, Dev: 62.8ms (P:1 Gr:1 Go:1 M:3)
+
+  > Loop 15 (13:03:30)
+    【全体】 Acc: 100.0%, Score: 90.8%, Err: -25.6ms, Dev: 37.2ms
+      [左手] Acc: 100.0%, Score: 87.1%, Err: -26.6ms, Dev: 40.4ms (P:5 Gr:1 Go:1 M:0)
+      [右手] Acc: 100.0%, Score: 95.0%, Err: -24.5ms, Dev: 33.1ms (P:5 Gr:1 Go:0 M:0)
+
+  > Loop 16 (13:03:39)
+    【全体】 Acc: 53.8%, Score: 42.3%, Err: -47.0ms, Dev: 52.6ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -37.0ms, Dev: 62.7ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 50.0%, Score: 40.0%, Err: -60.4ms, Dev: 30.0ms (P:2 Gr:0 Go:1 M:3)
+
+  > Loop 17 (13:03:49)
+    【全体】 Acc: 100.0%, Score: 100.0%, Err: -1.3ms, Dev: 43.4ms
+      [左手] Acc: 100.0%, Score: 95.7%, Err: -14.2ms, Dev: 40.1ms (P:6 Gr:1 Go:0 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: 11.6ms, Dev: 42.8ms (P:5 Gr:2 Go:0 M:0)
+
+  > Loop 18 (13:03:58)
+    【全体】 Acc: 76.9%, Score: 67.7%, Err: -41.4ms, Dev: 37.8ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: -42.5ms, Dev: 33.8ms (P:3 Gr:2 Go:0 M:2)
+      [右手] Acc: 83.3%, Score: 73.3%, Err: -40.3ms, Dev: 41.4ms (P:4 Gr:0 Go:1 M:1)
+
+  > Loop 19 (13:04:08)
+    【全体】 Acc: 84.6%, Score: 73.1%, Err: -52.9ms, Dev: 23.8ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: -48.2ms, Dev: 20.4ms (P:3 Gr:2 Go:0 M:2)
+      [右手] Acc: 100.0%, Score: 85.0%, Err: -56.8ms, Dev: 25.7ms (P:4 Gr:1 Go:1 M:0)
+
+  > Loop 20 (13:04:18)
+    【全体】 Acc: 92.3%, Score: 71.5%, Err: -16.9ms, Dev: 55.2ms
+      [左手] Acc: 85.7%, Score: 64.3%, Err: -28.5ms, Dev: 53.1ms (P:2 Gr:3 Go:1 M:1)
+      [右手] Acc: 100.0%, Score: 80.0%, Err: -5.2ms, Dev: 54.7ms (P:2 Gr:4 Go:0 M:0)
+
+  > Loop 21 (13:04:27)
+    【全体】 Acc: 69.2%, Score: 62.3%, Err: -30.8ms, Dev: 46.6ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: -29.4ms, Dev: 43.7ms (P:4 Gr:0 Go:1 M:2)
+      [右手] Acc: 66.7%, Score: 61.7%, Err: -32.7ms, Dev: 50.0ms (P:3 Gr:1 Go:0 M:2)
+
+  > Loop 22 (13:04:37)
+    【全体】 Acc: 84.6%, Score: 66.2%, Err: -41.7ms, Dev: 54.1ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -45.2ms, Dev: 51.0ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 100.0%, Score: 91.7%, Err: -39.7ms, Dev: 55.7ms (P:4 Gr:1 Go:2 M:0)
+
+  > Loop 23 (13:04:46)
+    【全体】 Acc: 61.5%, Score: 52.3%, Err: -41.2ms, Dev: 35.7ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -40.6ms, Dev: 39.9ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 66.7%, Score: 61.7%, Err: -41.9ms, Dev: 31.0ms (P:3 Gr:1 Go:0 M:2)
+
+  > Loop 24 (13:04:56)
+    【全体】 Acc: 92.3%, Score: 80.8%, Err: -39.8ms, Dev: 41.1ms
+      [左手] Acc: 85.7%, Score: 72.9%, Err: -40.4ms, Dev: 41.1ms (P:3 Gr:3 Go:0 M:1)
+      [右手] Acc: 100.0%, Score: 90.0%, Err: -39.3ms, Dev: 41.1ms (P:5 Gr:0 Go:1 M:0)
+
+  > Loop 25 (13:05:06)
+    【全体】 Acc: 30.8%, Score: 30.8%, Err: 20.9ms, Dev: 8.5ms
+      [左手] Acc: 28.6%, Score: 28.6%, Err: 15.4ms, Dev: 1.9ms (P:2 Gr:0 Go:0 M:5)
+      [右手] Acc: 33.3%, Score: 33.3%, Err: 26.4ms, Dev: 9.0ms (P:2 Gr:0 Go:0 M:4)
+
+  > Loop 26 (13:05:15)
+    【全体】 Acc: 100.0%, Score: 99.2%, Err: -24.4ms, Dev: 49.9ms
+      [左手] Acc: 100.0%, Score: 92.9%, Err: -34.3ms, Dev: 52.2ms (P:4 Gr:3 Go:1 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: -13.0ms, Dev: 44.5ms (P:5 Gr:2 Go:0 M:0)
+
+  > Loop 27 (13:05:25)
+    【全体】 Acc: 92.3%, Score: 80.8%, Err: -22.0ms, Dev: 47.9ms
+      [左手] Acc: 85.7%, Score: 77.1%, Err: -15.8ms, Dev: 42.0ms (P:4 Gr:2 Go:0 M:1)
+      [右手] Acc: 100.0%, Score: 85.0%, Err: -28.3ms, Dev: 52.4ms (P:4 Gr:1 Go:1 M:0)
+
+  > Loop 28 (13:05:34)
+    【全体】 Acc: 84.6%, Score: 73.1%, Err: -44.2ms, Dev: 27.1ms
+      [左手] Acc: 71.4%, Score: 58.6%, Err: -45.7ms, Dev: 26.1ms (P:2 Gr:3 Go:0 M:2)
+      [右手] Acc: 100.0%, Score: 90.0%, Err: -43.0ms, Dev: 27.8ms (P:4 Gr:2 Go:0 M:0)
+
+  > Loop 29 (13:05:44)
+    【全体】 Acc: 69.2%, Score: 64.6%, Err: -35.2ms, Dev: 31.3ms
+      [左手] Acc: 71.4%, Score: 62.9%, Err: -34.5ms, Dev: 38.8ms (P:3 Gr:2 Go:0 M:2)
+      [右手] Acc: 66.7%, Score: 66.7%, Err: -36.1ms, Dev: 17.8ms (P:4 Gr:0 Go:0 M:2)
+
+  > Loop 30 (13:05:54)
+    【全体】 Acc: 100.0%, Score: 100.0%, Err: -26.6ms, Dev: 38.2ms
+      [左手] Acc: 100.0%, Score: 100.0%, Err: -28.0ms, Dev: 39.2ms (P:5 Gr:3 Go:0 M:0)
+      [右手] Acc: 100.0%, Score: 100.0%, Err: -25.0ms, Dev: 36.9ms (P:5 Gr:2 Go:0 M:0)
+
+  > Loop 31 (13:06:03)
+    【全体】 Acc: 53.8%, Score: 46.9%, Err: -32.1ms, Dev: 43.1ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -40.1ms, Dev: 47.6ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 50.0%, Score: 50.0%, Err: -21.4ms, Dev: 33.3ms (P:3 Gr:0 Go:0 M:3)
+
+
+--- ステップ 3: 事後テスト (Test 2) ---
+手法: Test (None)
+日時: 2026-01-08 13:06:21
+【全体】 Acc: 92.3%, Score: 80.8%, Err: -22.0ms, Dev: 47.9ms
+  [左手] Acc: 85.7%, Score: 77.1%, Err: -15.8ms, Dev: 42.0ms (P:4 Gr:2 Go:0 M:1)
+  [右手] Acc: 100.0%, Score: 85.0%, Err: -28.3ms, Dev: 52.4ms (P:4 Gr:1 Go:1 M:0)
+
+  [打鍵詳細データ]
+  Note bottom-7   : dropped  ---
+  Note bottom-8   : dropped  ---
+  Note bottom-9   : dropped  ---
+  Note bottom-10  : dropped  ---
+  Note bottom-11  : dropped  ---
+  Note bottom-12  : dropped  ---
+  Note top-0      : dropped  ---
+  Note top-1      : dropped  ---
+  Note top-2      : dropped  ---
+  Note top-3      : dropped  ---
+  Note top-4      : dropped  ---
+  Note top-5      : dropped  ---
+  Note top-6      : dropped  ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+
+##################################################
+ 実験セット 3 (楽譜: test1.json)
+##################################################
+
+--- ステップ 1: 事前テスト (Test 1) ---
+手法: Test (None)
+日時: 2026-01-08 13:11:48
+【全体】 Acc: 15.4%, Score: 10.8%, Err: -77.6ms, Dev: 0.0ms
+  [左手] Acc: 14.3%, Score: 10.0%, Err: -77.6ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:6)
+  [右手] Acc: 16.7%, Score: 11.7%, Err: -77.5ms, Dev: 0.0ms (P:0 Gr:1 Go:0 M:5)
+
+  [打鍵詳細データ]
+  Note bottom-7   : great    -78ms
+  Note bottom-8   : dropped  ---
+  Note bottom-9   : dropped  ---
+  Note bottom-10  : dropped  ---
+  Note bottom-11  : dropped  ---
+  Note bottom-12  : dropped  ---
+  Note top-0      : great    -78ms
+  Note top-1      : dropped  ---
+  Note top-2      : dropped  ---
+  Note top-3      : dropped  ---
+  Note top-4      : dropped  ---
+  Note top-5      : dropped  ---
+  Note top-6      : dropped  ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+
+--- ステップ 2: 練習 (Practice) ---
+手法: 介入なし (お手本通り)
+日時: 2026-01-08 13:16:56
+【全体】 Acc: 76.9%, Score: 46.9%, Err: -77.7ms, Dev: 19.8ms
+  [左手] Acc: 71.4%, Score: 41.4%, Err: -80.6ms, Dev: 16.6ms (P:0 Gr:3 Go:2 M:2)
+  [右手] Acc: 83.3%, Score: 53.3%, Err: -74.8ms, Dev: 22.1ms (P:1 Gr:2 Go:2 M:1)
+
+  [各ループの推移]
+  > Loop 1 (13:12:08)
+    【全体】 Acc: 92.3%, Score: 71.5%, Err: -57.6ms, Dev: 30.4ms
+      [左手] Acc: 85.7%, Score: 60.0%, Err: -65.0ms, Dev: 33.8ms (P:1 Gr:4 Go:1 M:1)
+      [右手] Acc: 100.0%, Score: 85.0%, Err: -50.1ms, Dev: 24.3ms (P:3 Gr:3 Go:0 M:0)
+
+  > Loop 2 (13:12:19)
+    【全体】 Acc: 61.5%, Score: 43.1%, Err: -56.8ms, Dev: 44.5ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -52.4ms, Dev: 46.6ms (P:1 Gr:2 Go:1 M:3)
+      [右手] Acc: 66.7%, Score: 46.7%, Err: -61.2ms, Dev: 41.8ms (P:1 Gr:2 Go:1 M:2)
+
+  > Loop 3 (13:12:29)
+    【全体】 Acc: 15.4%, Score: 15.4%, Err: -39.3ms, Dev: 0.0ms
+      [左手] Acc: 14.3%, Score: 14.3%, Err: -39.3ms, Dev: 0.0ms (P:1 Gr:0 Go:0 M:6)
+      [右手] Acc: 16.7%, Score: 16.7%, Err: -39.3ms, Dev: 0.0ms (P:1 Gr:0 Go:0 M:5)
+
+  > Loop 4 (13:12:40)
+    【全体】 Acc: 84.6%, Score: 50.0%, Err: -70.7ms, Dev: 45.1ms
+      [左手] Acc: 85.7%, Score: 51.4%, Err: -82.7ms, Dev: 19.0ms (P:1 Gr:2 Go:3 M:1)
+      [右手] Acc: 83.3%, Score: 48.3%, Err: -56.3ms, Dev: 60.5ms (P:0 Gr:3 Go:2 M:1)
+
+  > Loop 5 (13:12:51)
+    【全体】 Acc: 46.2%, Score: 34.6%, Err: -62.6ms, Dev: 12.9ms
+      [左手] Acc: 42.9%, Score: 34.3%, Err: -57.8ms, Dev: 15.9ms (P:1 Gr:2 Go:0 M:4)
+      [右手] Acc: 50.0%, Score: 35.0%, Err: -67.5ms, Dev: 5.6ms (P:0 Gr:3 Go:0 M:3)
+
+  > Loop 6 (13:13:01)
+    【全体】 Acc: 76.9%, Score: 63.1%, Err: -61.3ms, Dev: 21.6ms
+      [左手] Acc: 71.4%, Score: 58.6%, Err: -62.1ms, Dev: 21.2ms (P:3 Gr:1 Go:1 M:2)
+      [右手] Acc: 83.3%, Score: 68.3%, Err: -60.6ms, Dev: 21.9ms (P:3 Gr:1 Go:1 M:1)
+
+  > Loop 7 (13:13:12)
+    【全体】 Acc: 84.6%, Score: 56.9%, Err: -73.4ms, Dev: 22.7ms
+      [左手] Acc: 85.7%, Score: 55.7%, Err: -79.9ms, Dev: 20.2ms (P:1 Gr:3 Go:2 M:1)
+      [右手] Acc: 83.3%, Score: 58.3%, Err: -65.7ms, Dev: 23.1ms (P:1 Gr:3 Go:1 M:1)
+
+  > Loop 8 (13:13:23)
+    【全体】 Acc: 92.3%, Score: 73.8%, Err: -58.8ms, Dev: 32.6ms
+      [左手] Acc: 85.7%, Score: 72.9%, Err: -56.2ms, Dev: 30.7ms (P:3 Gr:3 Go:0 M:1)
+      [右手] Acc: 100.0%, Score: 75.0%, Err: -61.3ms, Dev: 34.2ms (P:2 Gr:3 Go:1 M:0)
+
+  > Loop 9 (13:13:33)
+    【全体】 Acc: 53.8%, Score: 37.7%, Err: -66.2ms, Dev: 17.3ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -68.3ms, Dev: 22.5ms (P:1 Gr:2 Go:1 M:3)
+      [右手] Acc: 50.0%, Score: 35.0%, Err: -63.3ms, Dev: 2.8ms (P:0 Gr:3 Go:0 M:3)
+
+  > Loop 10 (13:13:44)
+    【全体】 Acc: 76.9%, Score: 51.5%, Err: -75.8ms, Dev: 22.6ms
+      [左手] Acc: 71.4%, Score: 41.4%, Err: -81.2ms, Dev: 23.6ms (P:1 Gr:1 Go:3 M:2)
+      [右手] Acc: 83.3%, Score: 63.3%, Err: -70.4ms, Dev: 20.1ms (P:1 Gr:4 Go:0 M:1)
+
+  > Loop 11 (13:13:55)
+    【全体】 Acc: 53.8%, Score: 40.0%, Err: -75.1ms, Dev: 19.7ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -80.5ms, Dev: 21.2ms (P:1 Gr:2 Go:1 M:3)
+      [右手] Acc: 50.0%, Score: 40.0%, Err: -68.0ms, Dev: 14.7ms (P:1 Gr:2 Go:0 M:3)
+
+  > Loop 12 (13:14:05)
+    【全体】 Acc: 69.2%, Score: 39.2%, Err: -81.6ms, Dev: 23.4ms
+      [左手] Acc: 71.4%, Score: 41.4%, Err: -79.1ms, Dev: 24.2ms (P:1 Gr:1 Go:3 M:2)
+      [右手] Acc: 66.7%, Score: 36.7%, Err: -84.6ms, Dev: 22.0ms (P:1 Gr:0 Go:3 M:2)
+
+  > Loop 13 (13:14:16)
+    【全体】 Acc: 61.5%, Score: 43.1%, Err: -65.2ms, Dev: 12.1ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -67.4ms, Dev: 15.9ms (P:1 Gr:2 Go:1 M:3)
+      [右手] Acc: 66.7%, Score: 46.7%, Err: -63.0ms, Dev: 5.5ms (P:0 Gr:4 Go:0 M:2)
+
+  > Loop 14 (13:14:27)
+    【全体】 Acc: 76.9%, Score: 60.8%, Err: -57.0ms, Dev: 28.2ms
+      [左手] Acc: 85.7%, Score: 60.0%, Err: -67.1ms, Dev: 26.7ms (P:2 Gr:2 Go:2 M:1)
+      [右手] Acc: 66.7%, Score: 61.7%, Err: -42.0ms, Dev: 23.4ms (P:3 Gr:1 Go:0 M:2)
+
+  > Loop 15 (13:14:37)
+    【全体】 Acc: 100.0%, Score: 76.9%, Err: -63.0ms, Dev: 18.4ms
+      [左手] Acc: 100.0%, Score: 74.3%, Err: -66.6ms, Dev: 15.3ms (P:2 Gr:4 Go:1 M:0)
+      [右手] Acc: 100.0%, Score: 80.0%, Err: -58.8ms, Dev: 20.6ms (P:2 Gr:4 Go:0 M:0)
+
+  > Loop 16 (13:14:48)
+    【全体】 Acc: 92.3%, Score: 78.5%, Err: -61.3ms, Dev: 18.5ms
+      [左手] Acc: 100.0%, Score: 78.6%, Err: -66.2ms, Dev: 18.9ms (P:3 Gr:3 Go:1 M:0)
+      [右手] Acc: 83.3%, Score: 78.3%, Err: -54.5ms, Dev: 15.5ms (P:4 Gr:1 Go:0 M:1)
+
+  > Loop 17 (13:14:59)
+    【全体】 Acc: 53.8%, Score: 28.5%, Err: -92.0ms, Dev: 19.4ms
+      [左手] Acc: 42.9%, Score: 21.4%, Err: -94.2ms, Dev: 17.1ms (P:0 Gr:1 Go:2 M:4)
+      [右手] Acc: 66.7%, Score: 36.7%, Err: -90.3ms, Dev: 20.9ms (P:1 Gr:0 Go:3 M:2)
+
+  > Loop 18 (13:15:09)
+    【全体】 Acc: 76.9%, Score: 56.2%, Err: -76.2ms, Dev: 14.9ms
+      [左手] Acc: 71.4%, Score: 54.3%, Err: -73.6ms, Dev: 10.4ms (P:1 Gr:4 Go:0 M:2)
+      [右手] Acc: 83.3%, Score: 58.3%, Err: -78.8ms, Dev: 17.9ms (P:1 Gr:3 Go:1 M:1)
+
+  > Loop 19 (13:15:20)
+    【全体】 Acc: 61.5%, Score: 45.4%, Err: -71.3ms, Dev: 20.4ms
+      [左手] Acc: 57.1%, Score: 40.0%, Err: -71.7ms, Dev: 21.6ms (P:1 Gr:2 Go:1 M:3)
+      [右手] Acc: 66.7%, Score: 51.7%, Err: -70.8ms, Dev: 19.0ms (P:2 Gr:1 Go:1 M:2)
+
+  > Loop 20 (13:15:31)
+    【全体】 Acc: 38.5%, Score: 20.0%, Err: -93.5ms, Dev: 15.1ms
+      [左手] Acc: 28.6%, Score: 15.7%, Err: -91.0ms, Dev: 16.0ms (P:0 Gr:1 Go:1 M:5)
+      [右手] Acc: 50.0%, Score: 25.0%, Err: -95.1ms, Dev: 14.3ms (P:0 Gr:1 Go:2 M:3)
+
+  > Loop 21 (13:15:41)
+    【全体】 Acc: 69.2%, Score: 50.8%, Err: -61.8ms, Dev: 35.5ms
+      [左手] Acc: 57.1%, Score: 44.3%, Err: -58.1ms, Dev: 37.1ms (P:2 Gr:1 Go:1 M:3)
+      [右手] Acc: 83.3%, Score: 58.3%, Err: -64.8ms, Dev: 33.8ms (P:2 Gr:1 Go:2 M:1)
+
+  > Loop 22 (13:15:52)
+    【全体】 Acc: 84.6%, Score: 68.5%, Err: -62.0ms, Dev: 19.6ms
+      [左手] Acc: 85.7%, Score: 64.3%, Err: -67.6ms, Dev: 23.0ms (P:2 Gr:3 Go:1 M:1)
+      [右手] Acc: 83.3%, Score: 73.3%, Err: -55.4ms, Dev: 11.4ms (P:3 Gr:2 Go:0 M:1)
+
+  > Loop 23 (13:16:03)
+    【全体】 Acc: 84.6%, Score: 61.5%, Err: -62.8ms, Dev: 27.9ms
+      [左手] Acc: 85.7%, Score: 64.3%, Err: -56.8ms, Dev: 31.3ms (P:2 Gr:3 Go:1 M:1)
+      [右手] Acc: 83.3%, Score: 58.3%, Err: -70.1ms, Dev: 21.0ms (P:1 Gr:3 Go:1 M:1)
+
+  > Loop 24 (13:16:13)
+    【全体】 Acc: 76.9%, Score: 60.8%, Err: -65.0ms, Dev: 14.8ms
+      [左手] Acc: 71.4%, Score: 54.3%, Err: -69.5ms, Dev: 16.4ms (P:2 Gr:2 Go:1 M:2)
+      [右手] Acc: 83.3%, Score: 68.3%, Err: -60.4ms, Dev: 11.2ms (P:2 Gr:3 Go:0 M:1)
+
+  > Loop 25 (13:16:24)
+    【全体】 Acc: 92.3%, Score: 71.5%, Err: -65.1ms, Dev: 19.9ms
+      [左手] Acc: 85.7%, Score: 68.6%, Err: -63.7ms, Dev: 18.4ms (P:2 Gr:4 Go:0 M:1)
+      [右手] Acc: 100.0%, Score: 75.0%, Err: -66.5ms, Dev: 21.1ms (P:2 Gr:3 Go:1 M:0)
+
+  > Loop 26 (13:16:35)
+    【全体】 Acc: 92.3%, Score: 62.3%, Err: -77.7ms, Dev: 18.4ms
+      [左手] Acc: 100.0%, Score: 61.4%, Err: -80.4ms, Dev: 16.6ms (P:1 Gr:3 Go:3 M:0)
+      [右手] Acc: 83.3%, Score: 63.3%, Err: -74.0ms, Dev: 20.0ms (P:2 Gr:2 Go:1 M:1)
+
+  > Loop 27 (13:16:45)
+    【全体】 Acc: 92.3%, Score: 66.9%, Err: -71.8ms, Dev: 21.1ms
+      [左手] Acc: 85.7%, Score: 64.3%, Err: -69.2ms, Dev: 20.2ms (P:2 Gr:3 Go:1 M:1)
+      [右手] Acc: 100.0%, Score: 70.0%, Err: -74.3ms, Dev: 21.7ms (P:2 Gr:2 Go:2 M:0)
+
+  > Loop 28 (13:16:56)
+    【全体】 Acc: 76.9%, Score: 46.9%, Err: -77.7ms, Dev: 19.8ms
+      [左手] Acc: 71.4%, Score: 41.4%, Err: -80.6ms, Dev: 16.6ms (P:0 Gr:3 Go:2 M:2)
+      [右手] Acc: 83.3%, Score: 53.3%, Err: -74.8ms, Dev: 22.1ms (P:1 Gr:2 Go:2 M:1)
+
+
+--- ステップ 3: 事後テスト (Test 2) ---
+手法: Test (None)
+日時: 2026-01-08 13:17:16
+【全体】 Acc: 53.8%, Score: 44.6%, Err: -50.0ms, Dev: 27.6ms
+  [左手] Acc: 57.1%, Score: 48.6%, Err: -50.1ms, Dev: 22.5ms (P:2 Gr:2 Go:0 M:3)
+  [右手] Acc: 50.0%, Score: 40.0%, Err: -49.9ms, Dev: 33.3ms (P:1 Gr:2 Go:0 M:3)
+
+  [打鍵詳細データ]
+  Note bottom-7   : great    -79ms
+  Note bottom-8   : dropped  ---
+  Note bottom-9   : dropped  ---
+  Note bottom-10  : great    -68ms
+  Note bottom-11  : perfect  -3ms
+  Note bottom-12  : dropped  ---
+  Note top-0      : great    -79ms
+  Note top-1      : dropped  ---
+  Note top-2      : dropped  ---
+  Note top-3      : dropped  ---
+  Note top-4      : great    -62ms
+  Note top-5      : perfect  -19ms
+  Note top-6      : perfect  -41ms
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---
+  Note Unknown    : extra    ---

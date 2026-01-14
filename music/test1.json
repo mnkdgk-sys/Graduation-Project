@@ -1,0 +1,188 @@
+{
+    "top": {
+        "bpm": 45,
+        "numerator": 4,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1187050
+            },
+            {
+                "beat": 1.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1188385
+            },
+            {
+                "beat": 2.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1189728
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1191057
+            },
+            {
+                "beat": 4.0,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true
+            },
+            {
+                "beat": 4.5,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1193078
+            },
+            {
+                "beat": 5.5,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false,
+                "lit_start_time": 1183734
+            },
+            {
+                "beat": 6.5,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false,
+                "lit_start_time": 1185080
+            },
+            {
+                "beat": 7.5,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false
+            }
+        ],
+        "beats_per_measure": 4.0,
+        "total_beats": 8.0,
+        "last_elapsed_ms": 6247.333333333334
+    },
+    "bottom": {
+        "bpm": 45,
+        "numerator": 4,
+        "denominator": 4,
+        "items": [
+            {
+                "beat": 0.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1187050
+            },
+            {
+                "beat": 1.0,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true
+            },
+            {
+                "beat": 1.5,
+                "type": "quarter",
+                "duration": 1.5,
+                "class": "note",
+                "dotted": true,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1189049
+            },
+            {
+                "beat": 3.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1191057
+            },
+            {
+                "beat": 4.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": true,
+                "lit_start_time": 1192410
+            },
+            {
+                "beat": 5.0,
+                "type": "eighth_rest",
+                "duration": 0.5,
+                "class": "rest",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false
+            },
+            {
+                "beat": 5.5,
+                "type": "quarter",
+                "duration": 1.5,
+                "class": "note",
+                "dotted": true,
+                "is_lit": false,
+                "played_in_loop": false,
+                "lit_start_time": 1183734
+            },
+            {
+                "beat": 7.0,
+                "type": "quarter",
+                "duration": 1.0,
+                "class": "note",
+                "dotted": false,
+                "is_lit": false,
+                "played_in_loop": false,
+                "lit_start_time": 1185717
+            }
+        ],
+        "beats_per_measure": 4.0,
+        "total_beats": 8.0,
+        "last_elapsed_ms": 6247.333333333334
+    }
+}
